@@ -1,0 +1,11 @@
+val=int(input("enter year"))
+if val%4==0:
+  if val%100==0:
+    if val%400==0:
+      print("leap year")
+    else:
+      print("not")
+  else:
+    print("leap year")
+else:
+  print("not")
