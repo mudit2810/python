@@ -1,0 +1,4 @@
+string = 'mohitgite'
+print(string.isupper()) 
+string = 'mohitgite'
+print(string.islower()) 
