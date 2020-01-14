@@ -1,0 +1,7 @@
+ma = -1
+n=int(input('enter number of strings\t'))
+for i in range(0,n,1):
+  i=input(' enter \t')
+  if len(i) > ma:
+    ma = len(i)
+print(ma)
