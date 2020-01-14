@@ -1,0 +1,7 @@
+a=input("enter a word\t")
+b=input("enter letter\t")
+keyw = 0 
+for i in a:
+  if i == b:
+    keyw+= 1
+print(keyw)
