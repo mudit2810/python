@@ -1,3 +1,0 @@
-X= input("enter")
-for i in list(x):
-print(str(i) + " = " + str(list(x).count(i)))

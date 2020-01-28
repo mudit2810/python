@@ -1,0 +1,9 @@
+list = ['h','e','l','l','o']
+count = list.count('h')
+print('The count of h is:', count)
+count = list.count('e')
+print('The count of e is:', count)
+count = list.count('l')
+print('The count of l is:', count)
+count = list.count('o')
+print('The count of o is:', count)
