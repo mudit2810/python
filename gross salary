@@ -1,0 +1,14 @@
+n=int(input("enter number"))
+fact=1
+for i in range(1,n+1):
+    fact=fact*i
+    
+    print(fact)
+
+sal=int(input("Enter basic salary"))
+da=int(input("Enter DA percent"))
+ta=int(input("Enter TA percent"))
+da=da*sal//100
+ta=ta*sal//100
+gross=sal+da+ta
+print("Gross salary",gross)
